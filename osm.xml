@@ -1,0 +1,38 @@
+<osm>
+
+<bounds minlat="10" minlon="-10" maxlat="55" maxlon="-35"/>
+
+<node id="1"/>
+<node id="2"/>
+<node id="3"/>
+<node id="4"/>
+
+<way id="5">
+	<nd ref="1"/>
+	<nd ref="2"/>
+</way>
+
+<way id="6">
+	<nd ref="3"/>
+	<nd ref="4"/>
+</way>
+
+<way id="7">
+	<nd ref="2"/>
+	<nd ref="3"/>
+	<nd ref="4"/>
+</way>
+
+<relation id="8">
+	<member ref="1" role="outer" type="node"/>
+	<member ref="6" role="outer" type="way"/>
+	<member ref="7" role="outer" type="way"/>
+</relation>
+
+<relation id="9">
+	<member ref="1" role="outer" type="node"/>
+	<member ref="6" role="outer" type="way"/>
+	<member ref="7" role="outer" type="way"/>
+</relation>
+
+</osm>
